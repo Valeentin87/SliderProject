@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="mySlides">
+            <img src="Images/Белый.jpg" style="width:100% ; height:50vh" >
+        </div>
+      
+        <div class="mySlides">
+            <img src="Images/Подосиновик.jpg" style="width:100% ; height:50vh">
+        </div>
+      
+        <div class="mySlides">
+            <img src="Images/Подберезовик.jpg" style="width:100% ; height:50vh">
+        </div>
+      
+        <div class="mySlides">
+            <img src="Images/Лисичка.jpg" style="width:100% ; height:50vh">
+        </div>
+      
+        <div class="mySlides">
+            <img src="Images/Опенок.jpg" style="width:100% ; height:50vh">
+        </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="Images/Белый.jpg" style="width:100% ; height: 100%;" onclick="currentSlide(1)" alt="Белый">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="Images/Подосиновик.jpg" style="width:100%; height: 100%;" onclick="currentSlide(2)" alt="Подосиновик">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="Images/Подберезовик.jpg" style="width:100%; height: 100%;" onclick="currentSlide(3)" alt="Подберезовик">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./Images/Лисичка.jpg" style="width:100%; height: 100%;" onclick="currentSlide(4)" alt="Лисичка">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="Images/Опенок.jpg" style="width:100%; height:100%;" onclick="currentSlide(5)" alt="Опенок">
+          </div>
+          
+        </div>
+      </div>
+
+    <script src="slider.js"></script>
+  </body>
+</html>
