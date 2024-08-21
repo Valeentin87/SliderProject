@@ -9,7 +9,7 @@ body
 { 
  margin: 0 auto; 
  padding: 0; 
- maxwidth: 400px; 
+ max-width: 1024px; 
  text-align: left; 
 } 
 
